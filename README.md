@@ -18,7 +18,7 @@ Section:NewToggle("Auto Rebirth", "", function(t)
 _G.Reb = t
 while _G.Reb do wait()
 local args = {
-    [1] = 18 --ตำแหน่งของรีเบริท
+    [1] = 3 --ตำแหน่งของรีเบริท
 }
 
 game:GetService("ReplicatedStorage").Events.Rebirth:FireServer(unpack(args))
